@@ -149,7 +149,7 @@ Welcome to your journey into statistical thinking for biology! Each chapter buil
 
 ---
 
-### Chapter 11: Power Analysis & Sample Size Calculation
+### Chapter 11: Power Analysis & Sample Size Calculation 
 [Open in Colab](https://drive.google.com/file/d/1X9-GKiYJSHKfp1PVFjOb9rAhTliSuBXE/view?usp=sharing)
 
 **Why this matters:** Underpowered studies waste time and money. Overpowered studies are inefficient. This chapter helps you design studies that can actually detect real effects.
