@@ -26,7 +26,7 @@ Welcome to your journey into statistical thinking for biology! Each chapter buil
 ## Module 1: Building Your Foundation
 
 ### Chapter 1: Getting Started with R & Tidyverse Basics
-[Open in Colab](https://drive.google.com/file/d/1mLy-lsS6Q7wtySqhxQzX0ysBdSGWgSlI/view?usp=sharing)
+[Open in Colab](https://colab.research.google.com/drive/1mLy-lsS6Q7wtySqhxQzX0ysBdSGWgSlI)
 
 **Why this matters:** Before you can answer any biological question with data, you need to organize it. Real research involves messy spreadsheets - gene expression data in one file, patient information in another. This chapter teaches you how to bring them together cleanly.
 
@@ -37,7 +37,7 @@ Welcome to your journey into statistical thinking for biology! Each chapter buil
 ---
 
 ### Chapter 2: Binomial Test
-[Open in Colab](https://drive.google.com/file/d/1gzcPn5T23fFAmshsY7pYyCEFOg_bcUDA/view?usp=sharing)
+[Open in Colab](https://colab.research.google.com/drive/1gzcPn5T23fFAmshsY7pYyCEFOg_bcUDA)
 
 **Why this matters:** Many biological questions are about counting: How many mutations? How many cells respond to treatment? The binomial test helps you determine if what you're seeing is more than just chance.
 
@@ -50,7 +50,7 @@ Welcome to your journey into statistical thinking for biology! Each chapter buil
 ---
 
 ### Chapter 3: Fisher's Exact Test
-[Open in Colab](https://drive.google.com/file/d/15M6pT5K3tiHTZuggrFLR9nQO3BYUUn28/view?usp=sharing)
+[Open in Colab](https://colab.research.google.com/drive/15M6pT5K3tiHTZuggrFLR9nQO3BYUUn28)
 
 **Why this matters:** Gene set enrichment is everywhere in omics papers. When you find 100 differentially expressed genes, you want to know: "Are these related? Do they belong to specific pathways?"
 
@@ -63,7 +63,7 @@ Welcome to your journey into statistical thinking for biology! Each chapter buil
 ---
 
 ### Chapter 4: T-test vs Mann-Whitney U
-[Open in Colab](https://drive.google.com/file/d/15acHzyr9txsTlO1PQWPKrTUFJL349P31/view?usp=sharing)
+[Open in Colab](https://colab.research.google.com/drive/15acHzyr9txsTlO1PQWPKrTUFJL349P31)
 
 **Why this matters:** When you measure something continuous (expression level, cell size, tumor volume), you need different tools. But not all data behaves nicely - some is skewed, some has outliers.
 
@@ -76,7 +76,7 @@ Welcome to your journey into statistical thinking for biology! Each chapter buil
 ---
 
 ### Chapter 5: ANOVA vs Kruskal-Wallis
-[Open in Colab](https://drive.google.com/file/d/1YOWSy3pv8M2rCGvS-nRzxPUM62bmelPq/view?usp=sharing)
+[Open in Colab](https://colab.research.google.com/drive/1YOWSy3pv8M2rCGvS-nRzxPUM62bmelPq)
 
 **Why this matters:** Comparing multiple groups simultaneously is incredibly common - cancer stages, different treatments, multiple cell types. Doing many t-tests leads to false discoveries.
 
@@ -89,7 +89,7 @@ Welcome to your journey into statistical thinking for biology! Each chapter buil
 ---
 
 ### Chapter 6: Pearson vs Spearman Correlation
-[Open in Colab](https://drive.google.com/file/d/1mo-e8g7SSuHbCjHYl_KOpAPsQnBz7Cw1/view?usp=sharing)
+[Open in Colab](https://colab.research.google.com/drive/1mo-e8g7SSuHbCjHYl_KOpAPsQnBz7Cw1)
 
 **Why this matters:** Biology is full of relationships. Does enzyme activity increase with temperature? Does tumor size correlate with survival time? Correlation quantifies these relationships.
 
@@ -104,7 +104,7 @@ Welcome to your journey into statistical thinking for biology! Each chapter buil
 ## Module 2: Handling High-Dimensional Data
 
 ### Chapter 7: PCA & Batch Effect Correction
-[Open in Colab](https://drive.google.com/file/d/1OSNZgzug_IwTwRbe0-5MEW3uAMn24ctU/view?usp=sharing)
+[Open in Colab](https://colab.research.google.com/drive/1OSNZgzug_IwTwRbe0-5MEW3uAMn24ctU)
 
 **Why this matters:** You can't visualize 20,000 dimensions. PCA reduces your data to 2-3 dimensions while preserving the most important patterns. It's also your first line of defense for quality control.
 
@@ -117,7 +117,7 @@ Welcome to your journey into statistical thinking for biology! Each chapter buil
 ---
 
 ### Chapter 8: Clustering & NMF (Unsupervised Learning)
-[Open in Colab](https://drive.google.com/file/d/143BuvmM73tKEnf30k9eisI000qw4FZOs/view?usp=sharing)
+[Open in Colab](https://colab.research.google.com/drive/143BuvmM73tKEnf30k9eisI000qw4FZOs)
 
 **Why this matters:** Diseases aren't always simple categories. "Breast cancer" actually contains multiple molecular subtypes with different treatments and outcomes. Clustering helps discover these hidden groups.
 
@@ -130,7 +130,7 @@ Welcome to your journey into statistical thinking for biology! Each chapter buil
 ---
 
 ### Chapter 9: Linear Models & GLM (Regression Analysis)
-[Open in Colab](https://drive.google.com/file/d/1Q214lymHa5WndjOZDSPTNY4BnJHjlvo3/view?usp=sharing)
+[Open in Colab](https://colab.research.google.com/drive/1Q214lymHa5WndjOZDSPTNY4BnJHjlvo3)
 
 **Why this matters:** Regression lets you model relationships while controlling for confounders. Does gene X predict survival after accounting for age, gender, and tumor stage?
 
@@ -145,7 +145,7 @@ Welcome to your journey into statistical thinking for biology! Each chapter buil
 ## Module 3: Ensuring Your Results Are Real
 
 ### Chapter 10: Multiple Testing Correction (FDR, Bonferroni)
-[Open in Colab](https://drive.google.com/file/d/1ceweW5KdhGa7PYcfvj1B9ClkP3PlzivL/view?usp=sharing)
+[Open in Colab](https://colab.research.google.com/drive/1ceweW5KdhGa7PYcfvj1B9ClkP3PlzivL)
 
 **Why this matters:** Test 20,000 genes at p < 0.05, and you'll get ~1,000 false positives even if nothing is real. This chapter prevents you from publishing noise.
 
@@ -158,7 +158,7 @@ Welcome to your journey into statistical thinking for biology! Each chapter buil
 ---
 
 ### Chapter 11: Power Analysis & Sample Size Calculation 
-[Open in Colab](https://drive.google.com/file/d/1X9-GKiYJSHKfp1PVFjOb9rAhTliSuBXE/view?usp=sharing)
+[Open in Colab](https://colab.research.google.com/drive/1X9-GKiYJSHKfp1PVFjOb9rAhTliSuBXE)
 
 **Why this matters:** Underpowered studies waste time and money. Overpowered studies are inefficient. This chapter helps you design studies that can actually detect real effects.
 
