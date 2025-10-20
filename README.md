@@ -26,7 +26,7 @@ Welcome to your journey into statistical thinking for biology! Each chapter buil
 ## Module 1: Building Your Foundation
 
 ### Chapter 1: Getting Started with R & Tidyverse Basics
-[Open in Colab](https://colab.research.google.com/drive/1mLy-lsS6Q7wtySqhxQzX0ysBdSGWgSlI)
+[Open in Colab](https://colab.research.google.com/drive/1eQ4RCdnETgg4cAK4NkRQTVAWdLbPv2pj)
 
 **Why this matters:** Before you can answer any biological question with data, you need to organize it. Real research involves messy spreadsheets - gene expression data in one file, patient information in another. This chapter teaches you how to bring them together cleanly.
 
