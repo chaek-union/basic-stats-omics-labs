@@ -5,9 +5,17 @@
 **Target Audience:** Undergraduate biology students
 
 **Prerequisites:** 
-- Your Google account (for accessing Colab notebooks)
+- A Google account (for accessing Colab notebooks)
 - Basic understanding of genetics concepts
 - Recommended preparatory reading: [Human Genetics](https://chaek.org/books/human-genetics)
+
+---
+
+This book is written as a collection of Google Colab tutorials. Each chapter provides hands-on practice with various statistical methods used in genomics, transcriptomics, and proteomics research at an undergraduate level.
+
+**⚠️ Note:** This book has not been fully reviewed yet. If you find any errors or have suggestions for improvement, please report them via [GitHub Issues](https://github.com/chaek-union/basic-stats-omics-labs/issues).
+
+**Purpose:** This book was created to train intern students in our laboratory.
 
 ---
 
