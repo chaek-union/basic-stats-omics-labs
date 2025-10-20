@@ -5,7 +5,7 @@
 **Target Audience:** Undergraduate biology students
 
 **Prerequisites:** 
-- A Google account (for accessing Colab notebooks)
+- Your Google account (for accessing Colab notebooks)
 - Basic understanding of genetics concepts
 - Recommended preparatory reading: [Human Genetics](https://chaek.org/books/human-genetics)
 
