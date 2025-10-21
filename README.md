@@ -1,43 +1,57 @@
-# Basic Stats for Omics: Coding Practice for Biology Students
+# Basic Statistics for Omics: A Hands-On Coding Guide for Biology Students
+
+## Introduction
+
+Welcome to your journey into statistical thinking for modern biology! This book bridges the gap between biological concepts and the computational skills you need to analyze real genomic data. Whether you're curious about gene expression patterns, protein abundance, or DNA sequences, you'll learn to extract meaningful insights from complex datasets.
+
+Each chapter builds progressively, starting with fundamental data manipulation and advancing to sophisticated analysis techniques used in current research. By the end, you'll be equipped to critically evaluate methods sections in scientific papers and conduct your own exploratory analyses.
 
 ## About This Book
 
-**Target Audience:** Undergraduate biology students
+This book is designed as a collection of interactive Google Colab tutorials, allowing you to learn by doing. You'll work through practical examples from genomics, transcriptomics, and proteomics—getting hands-on experience with the statistical approaches that drive modern biological discoveries.
 
-**Prerequisites:** 
-- A Google account (for accessing Colab notebooks)
-- Basic understanding of genetics concepts
-- Recommended preparatory reading: [Human Genetics](https://chaek.org/books/human-genetics)
+**Who This Book Is For:**
+- Undergraduate biology students ready to add computational skills to their toolkit
+- Research interns beginning work in omics laboratories
+- Anyone curious about how biologists turn raw data into biological insights
+
+**What You'll Need:**
+- A Google account (for accessing Colab notebooks—no installation required!)
+- Basic familiarity with genetics concepts (genes, DNA, proteins)
+- Enthusiasm for learning (we'll teach you the rest)
+
+**Recommended Preparation:** If you'd like to refresh your genetics and genomics background, consider reviewing [Human Genetics](https://chaek.org/books/human-genetics) before diving in.
+
+**A Note on Development:** This book emerged from our laboratory's need to train incoming students and interns. While the core content has been tested with multiple student cohorts, it hasn't undergone formal peer review yet. If you spot errors or have suggestions for improvement, we welcome your feedback via [GitHub Issues](https://github.com/chaek-union/basic-stats-omics-labs/issues). Your input helps make this resource better for future learners!
 
 ---
 
-This book is written as a collection of Google Colab tutorials. Each chapter provides hands-on practice with various statistical methods used in genomics, transcriptomics, and proteomics research at an undergraduate level.
+**🎯 Language Choice: R or Python?**
 
-**⚠️ Note:** This book has not been fully reviewed yet. If you find any errors or have suggestions for improvement, please report them via [GitHub Issues](https://github.com/chaek-union/basic-stats-omics-labs/issues).
+All chapters are available in **both R and Python**! Choose the language that best fits your needs:
 
-**Purpose:** This book was created to train intern students in our laboratory.
+- **R (Tidyverse)**: Traditional choice for bioinformatics and statistical genomics. Excellent visualization with ggplot2.
+- **Python (Pandas/SciPy)**: Versatile across data science, machine learning, and bioinformatics. Great for integrating with other tools.
 
----
-
-Welcome to your journey into statistical thinking for biology! Each chapter builds on the previous one, taking you from basic data handling to sophisticated analysis techniques used in real research papers.
+**Our recommendation:** Pick one and stick with it throughout the course. Both teach the same statistical concepts - the syntax is just different. If you're unsure, try Chapter 1 in both languages and see which feels more comfortable!
 
 ---
 
 ## Module 1: Building Your Foundation
 
-### Chapter 1: Getting Started with R & Tidyverse Basics
-[Open in Colab](https://colab.research.google.com/drive/1eQ4RCdnETgg4cAK4NkRQTVAWdLbPv2pj)
+### Chapter 1: Programming Basics & Data Wrangling
+**📚 [R Version](https://colab.research.google.com/drive/1eQ4RCdnETgg4cAK4NkRQTVAWdLbPv2pj) | [Python Version](https://colab.research.google.com/drive/1Vsde3mZWDqLLB2Hz4udcUdIG4q0KltFV)**
 
 **Why this matters:** Before you can answer any biological question with data, you need to organize it. Real research involves messy spreadsheets - gene expression data in one file, patient information in another. This chapter teaches you how to bring them together cleanly.
 
-**What you'll learn:** Think of this as learning the language. You'll use `dplyr` to filter, sort, and join datasets - essential skills for every chapter that follows.
+**What you'll learn:** Think of this as learning the language. In R, you'll use `dplyr`; in Python, you'll use `pandas`. Both teach you to filter, sort, and join datasets - essential skills for every chapter that follows.
 
 **Biological motivation:** Imagine you have RNA-seq data from 100 patients with different cancer types. You also have a separate file with their ages, treatments, and survival outcomes. How do you combine these to ask meaningful questions? That's what we solve here.
 
 ---
 
 ### Chapter 2: Binomial Test
-[Open in Colab](https://colab.research.google.com/drive/1gzcPn5T23fFAmshsY7pYyCEFOg_bcUDA)
+**📚 [R Version](https://colab.research.google.com/drive/1gzcPn5T23fFAmshsY7pYyCEFOg_bcUDA) | [Python Version](https://colab.research.google.com/drive/1d4lDnzHmGQfFutuAw1Izfg19UqZNTsBe)**
 
 **Why this matters:** Many biological questions are about counting: How many mutations? How many cells respond to treatment? The binomial test helps you determine if what you're seeing is more than just chance.
 
@@ -50,7 +64,7 @@ Welcome to your journey into statistical thinking for biology! Each chapter buil
 ---
 
 ### Chapter 3: Fisher's Exact Test
-[Open in Colab](https://colab.research.google.com/drive/15M6pT5K3tiHTZuggrFLR9nQO3BYUUn28)
+**📚 [R Version](https://colab.research.google.com/drive/15M6pT5K3tiHTZuggrFLR9nQO3BYUUn28) | [Python Version](https://colab.research.google.com/drive/1bc8PgBnoYk_dIWBJPOU1pXmPEpLb5D8W)**
 
 **Why this matters:** Gene set enrichment is everywhere in omics papers. When you find 100 differentially expressed genes, you want to know: "Are these related? Do they belong to specific pathways?"
 
@@ -63,7 +77,7 @@ Welcome to your journey into statistical thinking for biology! Each chapter buil
 ---
 
 ### Chapter 4: T-test vs Mann-Whitney U
-[Open in Colab](https://colab.research.google.com/drive/15acHzyr9txsTlO1PQWPKrTUFJL349P31)
+**📚 [R Version](https://colab.research.google.com/drive/15acHzyr9txsTlO1PQWPKrTUFJL349P31) | [Python Version](https://colab.research.google.com/drive/1P6igOxKZ6v0vebUcQrtWeE9BawbdlDx5)**
 
 **Why this matters:** When you measure something continuous (expression level, cell size, tumor volume), you need different tools. But not all data behaves nicely - some is skewed, some has outliers.
 
@@ -76,7 +90,7 @@ Welcome to your journey into statistical thinking for biology! Each chapter buil
 ---
 
 ### Chapter 5: ANOVA vs Kruskal-Wallis
-[Open in Colab](https://colab.research.google.com/drive/1YOWSy3pv8M2rCGvS-nRzxPUM62bmelPq)
+**📚 [R Version](https://colab.research.google.com/drive/1YOWSy3pv8M2rCGvS-nRzxPUM62bmelPq) | [Python Version](https://colab.research.google.com/drive/1A29nkIZYAfuw2Qe360kVRelvTx6xuZMv)**
 
 **Why this matters:** Comparing multiple groups simultaneously is incredibly common - cancer stages, different treatments, multiple cell types. Doing many t-tests leads to false discoveries.
 
@@ -89,7 +103,7 @@ Welcome to your journey into statistical thinking for biology! Each chapter buil
 ---
 
 ### Chapter 6: Pearson vs Spearman Correlation
-[Open in Colab](https://colab.research.google.com/drive/1mo-e8g7SSuHbCjHYl_KOpAPsQnBz7Cw1)
+**📚 [R Version](https://colab.research.google.com/drive/1mo-e8g7SSuHbCjHYl_KOpAPsQnBz7Cw1) | [Python Version](https://colab.research.google.com/drive/1ZKdiCU7q5Ouj63o0dcJ0fHt5Dc5jTdpq)**
 
 **Why this matters:** Biology is full of relationships. Does enzyme activity increase with temperature? Does tumor size correlate with survival time? Correlation quantifies these relationships.
 
@@ -104,7 +118,7 @@ Welcome to your journey into statistical thinking for biology! Each chapter buil
 ## Module 2: Handling High-Dimensional Data
 
 ### Chapter 7: PCA & Batch Effect Correction
-[Open in Colab](https://colab.research.google.com/drive/1OSNZgzug_IwTwRbe0-5MEW3uAMn24ctU)
+**📚 [R Version](https://colab.research.google.com/drive/1OSNZgzug_IwTwRbe0-5MEW3uAMn24ctU) | [Python Version](https://colab.research.google.com/drive/1vFP9DU-tL4G_36naE3HR8w6B3CakYTLl)**
 
 **Why this matters:** You can't visualize 20,000 dimensions. PCA reduces your data to 2-3 dimensions while preserving the most important patterns. It's also your first line of defense for quality control.
 
@@ -117,7 +131,7 @@ Welcome to your journey into statistical thinking for biology! Each chapter buil
 ---
 
 ### Chapter 8: Clustering & NMF (Unsupervised Learning)
-[Open in Colab](https://colab.research.google.com/drive/143BuvmM73tKEnf30k9eisI000qw4FZOs)
+**📚 [R Version](https://colab.research.google.com/drive/143BuvmM73tKEnf30k9eisI000qw4FZOs) | [Python Version](https://colab.research.google.com/drive/1E9pGS9Wx2_l3oIXdfCjWy2dy4CgOX7e_)**
 
 **Why this matters:** Diseases aren't always simple categories. "Breast cancer" actually contains multiple molecular subtypes with different treatments and outcomes. Clustering helps discover these hidden groups.
 
@@ -130,7 +144,7 @@ Welcome to your journey into statistical thinking for biology! Each chapter buil
 ---
 
 ### Chapter 9: Linear Models & GLM (Regression Analysis)
-[Open in Colab](https://colab.research.google.com/drive/1Q214lymHa5WndjOZDSPTNY4BnJHjlvo3)
+**📚 [R Version](https://colab.research.google.com/drive/1Q214lymHa5WndjOZDSPTNY4BnJHjlvo3) | [Python Version](https://colab.research.google.com/drive/1zpREecbYv2imPusu-ZjTz0I6Z30mdE6O)**
 
 **Why this matters:** Regression lets you model relationships while controlling for confounders. Does gene X predict survival after accounting for age, gender, and tumor stage?
 
@@ -145,7 +159,7 @@ Welcome to your journey into statistical thinking for biology! Each chapter buil
 ## Module 3: Ensuring Your Results Are Real
 
 ### Chapter 10: Multiple Testing Correction (FDR, Bonferroni)
-[Open in Colab](https://colab.research.google.com/drive/1ceweW5KdhGa7PYcfvj1B9ClkP3PlzivL)
+**📚 [R Version](https://colab.research.google.com/drive/1ceweW5KdhGa7PYcfvj1B9ClkP3PlzivL) | [Python Version](https://colab.research.google.com/drive/15vPZIbXtZ9IbdCQ_XJuN-CBsVv6LcaZQ)**
 
 **Why this matters:** Test 20,000 genes at p < 0.05, and you'll get ~1,000 false positives even if nothing is real. This chapter prevents you from publishing noise.
 
@@ -158,7 +172,7 @@ Welcome to your journey into statistical thinking for biology! Each chapter buil
 ---
 
 ### Chapter 11: Power Analysis & Sample Size Calculation 
-[Open in Colab](https://colab.research.google.com/drive/1X9-GKiYJSHKfp1PVFjOb9rAhTliSuBXE)
+**📚 [R Version](https://colab.research.google.com/drive/1X9-GKiYJSHKfp1PVFjOb9rAhTliSuBXE) | [Python Version](https://colab.research.google.com/drive/1Z7xCeRHyxvsubk97jBEyf2bgVrIxfOjO)**
 
 **Why this matters:** Underpowered studies waste time and money. Overpowered studies are inefficient. This chapter helps you design studies that can actually detect real effects.
 
@@ -171,6 +185,8 @@ Welcome to your journey into statistical thinking for biology! Each chapter buil
 ---
 
 ## How to Use This Book
+
+**Choose your language first:** All 11 chapters are available in both R and Python. Pick one and stick with it for consistency. The statistical concepts are identical - only the syntax differs.
 
 **Linear path:** If you're new to statistics, go chapter by chapter. Each builds on previous concepts.
 
