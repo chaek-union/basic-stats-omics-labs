@@ -1,7 +1,7 @@
 # Basic Statistics for Omics: A Hands-On Coding Guide for Biology Students
 
 <p align="center">
-  <img src="assets/front-cover.png" width="600">
+  <img src="assets/front-cover.jpg" width="600">
 </p>
 
 ## Introduction
