@@ -1,5 +1,9 @@
 # Basic Statistics for Omics: A Hands-On Coding Guide for Biology Students
 
+<p align="center">
+  <img src="assets/front-cover.png" width="600">
+</p>
+
 ## Introduction
 
 Welcome to your journey into statistical thinking for modern biology! This book bridges the gap between biological concepts and the computational skills you need to analyze real genomic data. Whether you're curious about gene expression patterns, protein abundance, or DNA sequences, you'll learn to extract meaningful insights from complex datasets.
