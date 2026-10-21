@@ -1,4 +1,5 @@
 {
     "title": "Basic Stats for Omics",
-    "root": "."
+    "root": ".",
+    "cover": "assets/front-cover.jpg"
 }
